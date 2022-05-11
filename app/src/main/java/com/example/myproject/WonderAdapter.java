@@ -23,11 +23,20 @@ public class WonderAdapter extends RecyclerView.Adapter<WonderViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull WonderViewHolder holder, int position) {
+        Wonder wonder = wonders.get(position);
 
+        holder.name.setText(wonder.getName());
+        holder.location.setText(wonder.getLocation());
+        holder.category.setText(wonder.getCategory());
+        holder.auxdata.setText(wonder.getAuxdata());
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return wonders.size();
+    }
+
+    public void setWonders(List<Wonder> mountains) {
+        this.wonders = wonders;
     }
 }
