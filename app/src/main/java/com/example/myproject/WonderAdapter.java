@@ -36,7 +36,7 @@ public class WonderAdapter extends RecyclerView.Adapter<WonderViewHolder> {
         return wonders.size();
     }
 
-    public void setWonders(List<Wonder> mountains) {
+    public void setWonders(List<Wonder> wonders) {
         this.wonders = wonders;
     }
 }

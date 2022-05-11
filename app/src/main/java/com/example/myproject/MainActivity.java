@@ -43,5 +43,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         Gson gson = new Gson();
         Type type = new TypeToken<ArrayList<Wonder>>() {}.getType();
         listOfWonders = gson.fromJson(json, type);
+        adapter.setWonders(listOfWonders);
+        adapter.notifyDataSetChanged();
+        Log.d(TAG, json);
     }
 }
