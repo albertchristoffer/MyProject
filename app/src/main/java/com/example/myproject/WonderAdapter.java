@@ -27,7 +27,7 @@ public class WonderAdapter extends RecyclerView.Adapter<WonderViewHolder> {
 
         holder.name.setText(wonder.getName());
         holder.location.setText(wonder.getLocation());
-        holder.category.setText(wonder.getCategory());
+        holder.category.setText("Typ: " + wonder.getCategory());
         holder.auxdata.setText(wonder.getAuxdata());
     }
 
