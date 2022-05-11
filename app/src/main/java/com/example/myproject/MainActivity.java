@@ -5,11 +5,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.util.Log;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements JsonTask.JsonTaskListener{
 
     private final String JSON_URL = "https://mobprog.webug.se/json-api?login=a18chrkr";
     private final String TAG = "==>";
@@ -28,6 +30,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.wonder_recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
+
+        new JsonTask(this).execute(JSON_URL);
+
+    }
+
+    @Override
+    public void onPostExecute(String json) {
 
     }
 }
