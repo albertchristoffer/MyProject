@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyProject">
         <activity
+            android:name=".WonderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Wonder"
+            android:exported="false" />
+        <activity
+            android:name=".WonderViewHolder"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
