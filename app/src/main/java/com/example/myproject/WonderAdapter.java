@@ -1,19 +1,28 @@
 package com.example.myproject;
 
+import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class WonderAdapter extends RecyclerView.Adapter {
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class WonderAdapter extends RecyclerView.Adapter<WonderViewHolder> {
+
+    private List<Wonder> wonders = new ArrayList();
+
     @NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+    public WonderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
+        return new WonderViewHolder((LayoutInflater.from(parent.getContext()).inflate(R.layout.item_holder, parent, false)));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull WonderViewHolder holder, int position) {
 
     }
 
