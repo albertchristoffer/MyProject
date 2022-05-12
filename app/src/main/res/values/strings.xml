@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Wonders</string>
+    <string name="about_header">Om appen</string>
+    <string name="about_text">Appen är riktad mot den äventyrliga och nyfikna människan som
+        önskar lära sig mer världens alla underverk innan de beger sig ut på en egen resa.
+        Här finns mycket information samlat om diverse underverk och monument på en och samma plats.</string>
 </resources>
