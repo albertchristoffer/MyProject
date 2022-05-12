@@ -4,12 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/black">
+    tools:context=".MainActivity">
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/imageView"
+        android:layout_width="470dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/background2"
+        android:scaleType="fitXY"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/wonder_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
