@@ -39,6 +39,36 @@
                 android:text="@string/about_text"
                 android:layout_margin="5dp"/>
 
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/about_text"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/copyright"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/wikipedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wikipedia"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/wikipedia"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/unsplash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unsplash"
+                android:layout_margin="5dp"/>
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

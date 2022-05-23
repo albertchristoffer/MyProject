@@ -7,4 +7,7 @@
     <string name="about_button">Om appen</string>
     <string name="back_button">Tillbaka</string>
     <string name="explore">Utforska Wonders</string>
+    <string name="wikipedia">All information i appen är hämtad från <a href="https://sv.wikipedia.org/wiki/Portal:Huvudsida">Wikipedia</a>.</string>
+    <string name="unsplash">Samtliga bilder är hämtade från <a href="https://unsplash.com/">Unsplash</a> och får lov att användas i kommersiellt bruk under Unsplash egna <a href="https://unsplash.com/license">licens</a>.</string>
+    <string name="copyright">Copyright</string>
 </resources>
