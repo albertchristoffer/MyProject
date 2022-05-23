@@ -2,12 +2,17 @@
     <string name="app_name">Wonders</string>
     <string name="about_header">Om appen</string>
     <string name="about_text">Appen är riktad mot den äventyrliga och nyfikna människan som
-        önskar lära sig mer världens alla underverk innan de beger sig ut på en egen resa.
-        Här finns mycket information samlat om diverse underverk och monument på en och samma plats.</string>
+        önskar lära sig mer om världens alla underverk innan de beger sig ut på en egen resa.
+        Här finns mycket information samlat om diverse underverk och monument på en och samma plats. Låt er inspireras!</string>
     <string name="about_button">Om appen</string>
     <string name="back_button">Tillbaka</string>
     <string name="explore">Utforska Wonders</string>
     <string name="wikipedia">All information i appen är hämtad från <a href="https://sv.wikipedia.org/wiki/Portal:Huvudsida">Wikipedia</a>.</string>
     <string name="unsplash">Samtliga bilder är hämtade från <a href="https://unsplash.com/">Unsplash</a> och får lov att användas i kommersiellt bruk under Unsplash egna <a href="https://unsplash.com/license">licens</a>.</string>
     <string name="copyright">Copyright</string>
+    <string name="patent_text"><i>Appen är patenterad av:</i></string>
+    <string name="company"><i>Beppes Pastejkök och Dynamit</i></string>
+    <string name="street"><i>Guleböjvägen 1</i></string>
+    <string name="address"><i>420 69, Tranemo</i></string>
+    <string name="phoneNr"><i>Tel: 070 212 12 12</i></string>
 </resources>
